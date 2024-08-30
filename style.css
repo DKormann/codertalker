@@ -1,8 +1,10 @@
 body{
-
   --dark: #181515;
   --light: #f5f5f5;
   --blue: #3090ff;
+  --red: #ff0000;
+  --green: #00ff00;
+  --focus: #f8ff741d;
 
   background-color: var(--dark);
   color:var(--blue);
@@ -22,6 +24,11 @@ body{
 #content>p{
   margin: 0;
   white-space: pre;
+}
+
+#content>p.focus{
+  background-color: var(--focus);
+  box-shadow: 0 0 10px var(--focus );
 }
 
 #intake{
